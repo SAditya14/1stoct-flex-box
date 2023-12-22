@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 5px;
+            padding: 5px;
+            font-family: sans-serif;
+            
+        }
+        .main{
+            background-color: aliceblue;
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            /* position: relative; */
+            display: flex;
+            gap: 10px;
+        }
+        .freebox{
+            background-color: white;
+            border-radius: 10px;
+            /* position: absolute; */
+            padding: 25px 25px;
+            box-shadow: 1px 1px 3px 3px rgb(154, 152, 152);
+            display: flex;
+            flex-direction: column;
+            height: 361px;
+
+            width: 263px;
+            /* overflow: auto; */
+        }
+        .box2{
+            background-color: darkblue;
+            border-radius: 10px;
+           display: flex;
+           flex-direction: column;
+           padding: 25px 25px;
+            box-shadow: 1px 1px 3px 3px rgb(154, 152, 152);
+            color: white;
+            height: 361px;
+            width: 263px;           
+        }
+
+        .box3{
+            background-color: white;
+            border-radius: 10px;
+            /* position: absolute; */
+            padding: 25px 25px;
+            box-shadow: 1px 1px 3px 3px rgb(154, 152, 152);
+            display: flex;
+            flex-direction: column;
+            height: 361px;
+
+            width: 263px;
+            /* overflow: auto; */
+        }
+
+
+     
+        .tickblock{
+            margin-left: -5px;
+            /* margin-bottom: 50px; */
+        }
+        .btn{
+            background-color: navy;
+            color: white;
+            border: 2px solid navy;
+            border-radius: 20px;
+            margin: 30px;
+            width: 120px;
+            text-align: center;
+            font-weight: 600;
+            padding: 5px;
+        }
+        .btn2{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            border: 2px solid navy;
+            border-radius: 20px;
+            width: 120px;
+            text-align: center;
+            font-weight: 600;
+            padding: 5px;
+            margin: 30px;
+            
+
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="freebox">
+            <h2>Free plan</h2>
+            <p>For Personal</p>
+            <h3>$0</h3>
+            <p><span class="tickblock">1. 1 User</span></p>
+
+            <p><span class="tickblock">2. 4 Web Mails</span></p>
+
+            <p><span class="tickblock">3. Responsive Website</span></p>
+
+            <p><span class="tickblock">4. Free SSL</span></p>
+            
+            <button class="btn">Subscribe Now</button>
+        </div>
+
+        <div class="box2">
+            <h2>Basic Plan</h2>
+            <p>For Small Business</p>
+            <h3>$29</h3>
+            <p><span class="tickblock">1. 4 User</span></p>
+
+            <p><span class="tickblock">2. 10 Web Mails</span></p>
+
+            <p><span class="tickblock">3. Responsive Website</span></p>
+
+            <p><span class="tickblock">4. Free SSL</span></p>
+            
+            <button class="btn2">Subscribe Now</button>
+        </div>
+        
+       
+            <div class="box3">
+                <h2>Pro Plan</h2>
+                <p>For Enterprise</p>
+                <h3>$49</h3>
+                <p><span class="tickblock">1. Unlimited Users</span></p>
+    
+                <p><span class="tickblock">2. Unlimited Web Mails</span></p>
+    
+                <p><span class="tickblock">3. Responsive Website</span></p>
+    
+                <p><span class="tickblock">4. Free SSL + SEO</span></p>
+                
+                <button class="btn">Subscribe Now</button>
+            </div>
+
+        
+        
+    </div>
+</body>
+</html>
